@@ -74,6 +74,7 @@ body {
     padding: 15px 20px;
     margin: 0 10px;
     color: white;
+    transition: 0.7 ease;
 }
 
 .nav-links a:hover {
@@ -94,6 +95,8 @@ body {
     width: 25px;
     background: white;
     border-radius: 3px;
+    -webkit-transition: all 0.3 ease-in-out;
+    transition: all 0.3 ease-in-out;
 }
 
 /* Nav links for mobile active */
