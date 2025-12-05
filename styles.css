@@ -24,10 +24,10 @@ body {
     align-items: center;
     justify-content: space-between;
     z-index: 999;
-    background: rgba(8, 44, 78, 0.45);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(8, 44, 78, 0.15);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
 
 .logo-container {
