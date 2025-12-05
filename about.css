@@ -1,0 +1,84 @@
+.role {
+    width: 100%;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.role-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.role-container {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+
+.role-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    transition: .3s;
+    border: none;
+}
+
+.role-member img:hover {
+    transform: scale(1.05);
+}
+
+.role-member h2 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+
+.role-member .name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.role-member p {
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+.technologies-h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.tech-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-card p {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+
+/* Responsive Mobile Layout */
+@media(max-width: 768px) {
+    .role-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .role-title {
+        font-size: 2rem;
+    }
+    .role-member img {
+        width: 150px;
+        height: 150px;
+    }
+}
