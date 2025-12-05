@@ -1,6 +1,6 @@
 #portfolio-main {
     width: 100%;
-    padding-top: 120px;
+    padding-top: 35px;
     padding-bottom: 40px;
 }
 
@@ -9,15 +9,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 60px;
-    padding-right: 60px;
-    min-height: 350px;
+    padding: 100px;
+    min-height: 450px;
     color: #3097f3;
     gap: 20px;
     background-color: white;
     border-radius: 35px;
+    height: 550px;
+    margin-bottom: 100px;
 }
 
 .portfolio-section.left {
@@ -31,6 +30,7 @@
 .portfolio-section h3 {
     font-size: 2rem;
     margin-bottom: 20px;
+    color: #f9b31e;
 }
 
 .portfolio-section p {
@@ -47,7 +47,7 @@
     border: 3px solid white;
     flex-shrink: 0;
     transition: 0.3s ease;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: 10px 10px 48px -8px #3097f3;
 }
 
 .profile-pic:hover {
@@ -60,12 +60,17 @@
     font-style: italic;
     max-width: 550px; 
     width: 100%;      
+    color: #4A4A4A;
 }
 
+.portfolio-section h4 {
+    color: #f9b31e;
+}
 
 .skills-list {
     margin-left: 20px;
     margin-bottom: 15px;
+    color: #4A4A4A;
 }
 
 .skills-list li {
