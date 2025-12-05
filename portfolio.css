@@ -1,3 +1,7 @@
+p {
+    color: white;
+}
+
 #portfolio-main {
     width: 100%;
     padding-top: 35px;
@@ -21,10 +25,12 @@
 
 .portfolio-section.left {
     flex-direction: row;
+    background-color: white;
 }
 
 .portfolio-section.right {
     flex-direction: row-reverse;
+    background-color: white;
 }
 
 .portfolio-section h3 {
