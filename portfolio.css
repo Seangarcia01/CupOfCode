@@ -21,10 +21,12 @@
 
 .portfolio-section.left {
     flex-direction: row;
+    background-color: white;
 }
 
 .portfolio-section.right {
     flex-direction: row-reverse;
+    background-color: white;
 }
 
 .portfolio-section h3 {
