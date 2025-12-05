@@ -1,13 +1,25 @@
-.role {
+.reason, .role, .technologies-container {
     width: 100%;
     padding: 80px 0;
     text-align: center;
 }
 
-.role-title {
+.title {
     font-size: 2.5rem;
     margin-bottom: 50px;
     font-weight: 700;
+}
+
+.reason-title {
+    font-size: 1.3rem; 
+}
+
+.reason-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .role-container {
@@ -24,61 +36,81 @@
     object-fit: cover;
     margin-bottom: 15px;
     transition: .3s;
-    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.role-member img:hover {
-    transform: scale(1.05);
+.role-member img:hover { 
+    transform: scale(1.05); 
 }
 
-.role-member h2 {
-    font-size: 1.3rem;
-    margin-bottom: 8px;
+.role-member h2 { 
+    font-size: 1.3rem; 
+    margin-bottom: 8px; 
 }
 
-.role-member .name {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 4px;
+.role-member .name { 
+    font-size: 1.1rem; 
+    font-weight: 600; 
+    margin-bottom: 4px; 
 }
 
-.role-member p {
-    font-size: 1rem;
-    line-height: 1.3;
+.role-member p { 
+    font-size: 1rem; 
+    line-height: 1.3; 
 }
 
-.technologies-h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    font-weight: 700;
-}
-
-.tech-card {
+/* Tech Section */
+.tech-images {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 20px;
 }
 
-.tech-card p {
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tech-item img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin: 10px;
+    transition: .3s;
+}
+
+.tech-item img:hover { 
+    transform: scale(1.1); 
+}
+
+.tech-item p {
     font-size: 1.3rem;
-    margin-bottom: 8px;
+    margin-top: 5px;
     font-weight: 500;
 }
 
-
-/* Responsive Mobile Layout */
+/* Mobile */
 @media(max-width: 768px) {
-    .role-container {
-        flex-direction: column;
-        gap: 50px;
+    .role-container { 
+        flex-direction: column; 
+        gap: 50px; 
     }
-    .role-title {
-        font-size: 2rem;
+    
+    .title { 
+        font-size: 2rem; 
     }
-    .role-member img {
-        width: 150px;
-        height: 150px;
+    
+    .role-member img { 
+        width: 150px; 
+        height: 150px; 
+    }
+    
+    .tech-images { 
+        flex-direction: column; 
+        gap: 40px; 
     }
 }
