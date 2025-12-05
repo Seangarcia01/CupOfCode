@@ -38,7 +38,8 @@ body {
 #logo-name {
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: #f9b31e;
+;
 }
 
 .logo-link {
@@ -50,7 +51,7 @@ body {
 }
 
 #logo-name:hover {
-    color: black;
+    color: white;
 }
 
 #logo-img {
@@ -73,12 +74,12 @@ body {
     font-size: 18px;
     padding: 15px 20px;
     margin: 0 10px;
-    color: white;
+    color: #f9b31e;
     transition: 0.7 ease;
 }
 
 .nav-links a:hover {
-    color: black;
+    color: white;
 }
 
 /* Hamburger menu */
