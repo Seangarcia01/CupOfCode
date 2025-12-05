@@ -2,6 +2,10 @@ p {
     color: white;
 }
 
+.text-box {
+    color:white;
+}
+
 #portfolio-main {
     width: 100%;
     padding-top: 120px;
@@ -35,6 +39,7 @@ p {
 
 .portfolio-section h3 {
     font-size: 2rem;
+    color: #f9b31e;
     margin-bottom: 20px;
 }
 
