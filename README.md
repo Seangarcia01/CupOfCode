@@ -29,6 +29,7 @@ This project leverages the foundational technologies of front-end development, d
 ## 📂 Project Structure
 
 The repository is organized into the following major directories and files:
+CupOfCode/ ├── index.html # Main landing page. ├── about.html # Team overview, problems & solutions. ├── portfolio.html # Detailed individual member profiles. ├── styles.css # Main stylesheet (including portfolio-specific styles). ├── main.js # JavaScript for navigation toggling and interactivity. └── images/ # Directory for all project assets (logos, profile pictures, etc.).
 ---
 
 ## 👥 Meet the Team
