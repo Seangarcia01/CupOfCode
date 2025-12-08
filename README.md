@@ -35,9 +35,9 @@ The repository is organized into the following major directories and files:
 
 | Name | Role | Contact |
 | :--- | :--- | :--- |
-| **Sean Garcia** | Front-End Developer | [Facebook Profile](https://web.facebook.com/seangenielgarcia.2025) |
-| **Gabriel Castro** | Front-End Developer | [Facebook Profile](https://web.facebook.com/gabbcastrow) |
-| **Dwayne Carig** | Front-End Developer | [Facebook Profile](https://web.facebook.com/dwayne.ironicmember) |
+| **Sean Garcia** | Front-End Developer | [seangenielgarcia.2025](https://web.facebook.com/seangenielgarcia.2025) |
+| **Gabriel Castro** | Front-End Developer | [gabbcastrow](https://web.facebook.com/gabbcastrow) |
+| **Dwayne Carig** | Front-End Developer | [dwayne.ironicmember](https://web.facebook.com/dwayne.ironicmember) |
 
 ---
 
