@@ -61,15 +61,5 @@ To run this project locally, follow these simple steps:
     # OR 
     start index.html
     ```
-
 ---
 
-## ✅ Development Log (Sean Garcia Example)
-
-This section details specific challenges encountered and the solutions implemented by team members during development.
-
-| Problem | Solution |
-| :--- | :--- |
-| Making the website responsive to cater to desktop, laptop, tablet, and mobile devices. | Watch and research how to implement a responsive layout. |
-| Centering elements like `div` containers, pictures, and text. | Watch videos (YouTube) and research techniques for centering `div`s, pictures, text, etc. |
-| Creating efficient spacing and alignment between elements. | Watch and research how to effectively use CSS properties like `display`, `position`, `margin`, `padding`, and `border`. |
